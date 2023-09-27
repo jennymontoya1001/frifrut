@@ -1,0 +1,26 @@
+/*
+background: rgb(234,240,110);
+    background: linear-gradient(90deg, rgba(234,240,110,1) 7%, rgba(132,232,104,1) 54%, rgba(231,220,99,1) 94%);
+*/
+:root{
+  --color--title:#4dd125;
+}
+
+body{
+  background-image: url("Fondo.png");
+}
+
+header{
+    padding: 1%;
+    background: rgb(234,240,110);
+    background: linear-gradient(90deg, rgba(234,240,110,1) 7%, rgba(132,232,104,1) 54%, rgba(231,220,99,1) 94%);
+}
+.title  
+{
+  color: var(--color--title);
+  text-align: center;
+}
+.container{
+  justify-content: center;
+  text-align: center;
+}
